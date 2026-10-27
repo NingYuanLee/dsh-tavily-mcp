@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Tavily",
+    "description": "接入 Tavily 远程 MCP，让助手可以搜索、抽取、爬取和绘制网页。API Key 只保存在 TAVILY_API_KEY 凭据里，不会写入插件配置。"
+  }
+}

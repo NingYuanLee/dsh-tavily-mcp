@@ -1,0 +1,3 @@
+- insert:
+    - id: tavily-mcp
+      name: dsh-tavily-mcp

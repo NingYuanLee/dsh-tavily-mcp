@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Tavily",
+    "description": "Connects Tavily's remote MCP server so the agent can search, extract, crawl, and map the web. The API key stays in the TAVILY_API_KEY credential."
+  }
+}
