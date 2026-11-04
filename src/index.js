@@ -89,13 +89,11 @@ export async function apply(ctx, config) {
       return
     }
     fiber = next
-    try {
-      await next
-    } catch (error) {
+    void Promise.resolve(next).catch((error) => {
       if (token !== generation) return
       ctx.logger.error('Tavily MCP 连接失败。请检查 API Key 和 url，密钥本身不会写在这条日志里。')
       ctx.logger.error(error)
-    }
+    })
   }
 
   function schedule() {

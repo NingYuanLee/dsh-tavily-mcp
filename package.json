@@ -1,6 +1,6 @@
 {
   "name": "dsh-tavily-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Connect Tavily's remote MCP server to DeepSeek Harness. Search, extract, crawl, map, and research the web; the API key stays in the TAVILY_API_KEY credential.",
   "license": "MIT",
   "author": "NingYuanLee <liyunningyuan@outlook.com>",
@@ -63,9 +63,9 @@
     }
   },
   "peerDependencies": {
-    "@deepseek-ai/cordis": "~4.0.4",
-    "@deepseek-ai/dsh-credentials": ">=0.2.1-0 <0.3.0",
-    "@deepseek-ai/dsh-mcp-client": ">=0.2.1-0 <0.3.0",
-    "@deepseek-ai/schemastery": "~3.18.4"
+    "@deepseek-ai/cordis": ">=4.0.4 <5.0.0",
+    "@deepseek-ai/dsh-credentials": ">=0.2.1-0 <0.3.0-0 || >=0.2.2-0 <0.3.0-0",
+    "@deepseek-ai/dsh-mcp-client": ">=0.2.1-0 <0.3.0-0 || >=0.2.2-0 <0.3.0-0",
+    "@deepseek-ai/schemastery": ">=3.18.4 <4.0.0"
   }
 }
