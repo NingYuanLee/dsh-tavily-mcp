@@ -1,8 +1,6 @@
 # dsh-tavily-mcp
 
-[![CI](https://github.com/NingYuanLee/dsh-tavily-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/NingYuanLee/dsh-tavily-mcp/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![dsh](https://img.shields.io/badge/dsh-%3E%3D0.2.1--rc.2%20%3C0.3.0--0-6f42c1)](package.json)
+[![CI](https://github.com/NingYuanLee/dsh-tavily-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/NingYuanLee/dsh-tavily-mcp/actions/workflows/ci.yml) [![npm](https://img.shields.io/npm/v/dsh-tavily-mcp.svg)](https://www.npmjs.com/package/dsh-tavily-mcp) [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE) [![Node >=22.19](https://img.shields.io/badge/node-%3E%3D22.19.0-339933.svg)](#compatibility) [![dsh](https://img.shields.io/badge/dsh-%3E%3D0.2.1--rc.2%20%3C0.3.0--0%20%7C%7C%20%3E%3D0.2.2--0%20%3C0.3.0--0-6f42c1)](#compatibility) [![topic: dsh-plugin](https://img.shields.io/badge/topic-dsh--plugin-6f42c1.svg)](https://github.com/topics/dsh-plugin) [![powered by dsh](https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white)](https://github.com/deepseek-ai/deepseek-harness)
 
 > Third-party community plugin for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness). Not an official DeepSeek or Tavily product. MIT licensed.
 
@@ -75,9 +73,9 @@ See [SECURITY.md](SECURITY.md).
 
 | Item | Value |
 |---|---|
-| dsh | `>=0.2.1-rc.2 <0.3.0-0` |
+| dsh | `>=0.2.1-rc.2 <0.3.0-0 \|\| >=0.2.2-0 <0.3.0-0` |
 | Node | `>=22.19.0` |
-| Verified on | dsh `0.2.1-rc.3`, Windows x64, desktop profile |
+| Verified on | dsh `0.2.1-rc.3` and `0.2.2-rc.1`, Windows x64, desktop profile |
 | Requires | `credentials`, `tools`, and the shipped `@deepseek-ai/dsh-mcp-client` |
 
 Display metadata is `locale/en.json`, `locale/zh.json`, and `icon.svg`. There is no Web UI and no build step.
